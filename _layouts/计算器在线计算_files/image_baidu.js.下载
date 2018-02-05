@@ -1,0 +1,7 @@
+document.writeln("<script type=\"text/javascript\">");
+document.writeln("    /*为了保证用户体验及收益，图片大小不得小于：200*180*/");
+document.writeln("    /* 图+创建于 2016-05-18*/");
+document.writeln("var cpro_id = \"u2643183\";");
+document.writeln("</script>");
+document.writeln("<script src=\"http://cpro.baidustatic.com/cpro/ui/i.js\" type=\"text/javascript\"></script>");
+document.writeln("");

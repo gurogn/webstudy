@@ -1,0 +1,15 @@
+﻿document.writeln("</br>");
+document.writeln("<div  id=\"topbaidu3\">");
+//document.writeln("<script type=\'text/javascript\' src=\'http://ad1.apple886.com/fc3a1ec291f3cdf03fdb1f74d9efff27ff59e7855c6dac32ed12.js\'></script>");
+//document.writeln("<script type=\'text/javascript\'>var jd_union_pid=\'766552848\';var jd_union_euid=\'\';</script><script type=\'text/javascript\' src=\'//ads.union.jd.com/static/js/union.js\'></script>");
+//document.writeln("<iframe  allowTransparency=\"true\" src=\"http://www.apple886.com/gouwu.html\" width=\"988\" height=\"99\" frameborder=\"0\" scrolling=\"no\" border=0 ></iframe>");
+//document.writeln("<script type=\'text/javascript\' src=\'http://ad1.apple886.com/jx3a1ece96f1c3f03bdb1f74d9efff27ff59e7855c6dac32ed12.js\'></script>");
+//document.writeln("<script type=\'text/javascript\' src=\'http://ad1.apple886.com/fsd8yi9zn6.js\'></script>");
+
+document.writeln("<script type=\'text/javascript\'>");
+document.writeln("    /*pc-创新-彩色标签云*/");
+document.writeln("    var cpro_id = \'u2966973\';");
+document.writeln("</script>");
+document.writeln("<script type=\'text/javascript\' src=\'http://cpro.baidustatic.com/cpro/ui/c.js\'></script>");
+
+document.writeln("</div>");

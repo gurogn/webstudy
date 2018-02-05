@@ -1,0 +1,7 @@
+document.writeln("<div id=\"jd\">"); 
+//document.writeln("<script type=\'text/javascript\' src=\'http://ad1.apple886.com/uq3a1ec291f3cdf13edb1f74d9efff27ff59e7855c6dac32ed12.js\'></script>");
+//document.writeln("<script type=\'text/javascript\' src=\'http://ad1.apple886.com/jp3a1ece97f5ccf63ddb1f74d9efff27ff59e7855c6dac32ed12.js\'></script>");
+
+ 
+document.writeln("<script type=\'text/javascript\' src=\'//fpb1.apple886.com/jetbnafdd.js\'></script>");
+document.writeln("</div>"); 

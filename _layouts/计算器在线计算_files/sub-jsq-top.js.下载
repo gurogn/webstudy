@@ -1,0 +1,10 @@
+document.writeln("<div id=\"topbaidu\" style=\"width:988px;align:center;\">");
+//document.writeln("<script type=\'text/javascript\' src=\'http://ad1.apple886.com/cy3a1ec291f3cdf03cdb1f74d9efff27ff59e7855c6dac32ed12.js\'></script>");
+//document.writeln("<script type=\'text/javascript\' src=\'http://ad1.apple886.com/uwd8ra4kas.js\'></script>");
+
+//document.writeln("<script type=\'text/javascript\' src=\'http://ad1.apple886.com/dyqhhghxubfhnqu.js\'></script>");960*120top
+//document.writeln("<iframe  allowTransparency=\'true\' src=\'http://www.apple886.com/gouwu.html\' width=\'960\' height=\'99\' frameborder=\'0\' scrolling=\'no\' border=0 ></iframe>");
+document.writeln("</div>");
+
+
+ 

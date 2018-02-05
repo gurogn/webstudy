@@ -1,0 +1,69 @@
+﻿
+document.writeln('<div id="footer" class="b">');
+            
+			document.writeln('<a href="/" class="back" target="_self">返回首页</a>');
+			document.writeln('<b>&#8226;</b>');
+			document.writeln('<a href="#top" class="top" target="_self">返回顶部</a>'); 
+			document.writeln('<b>&#8226;</b>');
+			document.writeln('<a style="color: #009901"href="#" target="_self" onclick="SetHome(this,window.location)">设为主页</a>');
+			document.writeln('<b>&#8226;</b>');
+			document.writeln('<a href="#" style="color: red" target="_self" onclick="AddFavorite(window.location,document.title)">加入收藏</a>');
+			document.writeln('<b>&#8226;</b>');
+			document.writeln('<a style="color:blue" href="http://lawyer.yingkelawyer.com/Lawyer/LawyerInfo/4240">法律顾问</a>');
+			document.writeln('<b>&#8226;</b>');
+			document.writeln('<a style="color: red" href="http://www.miibeian.gov.cn/">沪ICP备13034684号-1</a>');
+document.writeln('<b>&#8226;</b>');
+document.writeln('<a style="color: blue" href="mailto:cw_1122@126.com">联系我们</a>'); 
+			document.writeln('</br></br>');
+			document.write ('<div>友情连接：<A href="http://www.apple88.net" target=_blank>苹果宝宝网</A>');
+			document.writeln('<b>&#8226;</b>');
+            document.write ('<A href="http://www.apple886.com" target=_blank>886导航网</A>');
+            document.writeln('<b>&#8226;</b>'); 
+            document.write ('<A href="http://shop.apple886.com" target=_blank>购物网站大全</A> ');
+            document.writeln('<b>&#8226;</b>');
+            document.write ('<A href="http://qjd.apple886.com" target=_blank>天猫旗舰店大全</A> ');
+            document.writeln('<b>&#8226;</b>');
+            document.write ('<A href="http://cal.apple886.com" target=_blank>计算器</A>');
+            document.writeln('</br></br>');
+		document.writeln('</div>'); 	
+
+ 
+
+
+//window.onload = function() {
+ 
+  setTimeout(function() { 
+ var fk = document.getElementById("topbaidu"); 
+var fk3 = document.getElementById("topbaidu3"); 
+  var fk8 = document.getElementById("topbaidu8");  
+if(fk!=null) { 
+var insertText = "<iframe  allowTransparency=\"true\" src=\"http://www.apple886.com/gouwu.html\" width=\"988\" height=\"99\" frameborder=\"0\" scrolling=\"no\" border=0 ></iframe>";
+if(fk3.innerHTML.length<200){ 
+//fk.innerHTML=insertText;
+var jd = document.getElementById("jd"); 
+var insertText_tyn = "<iframe  allowTransparency=\"true\" src=\"http://www.apple886.com/gouwu-tyn.html\" width=\"160\" height=\"600\" frameborder=\"0\" scrolling=\"no\" border=0 ></iframe>";
+jd.innerHTML=insertText_tyn;
+if(fk3!=null) { 
+var insertText2 = "<iframe  allowTransparency=\"true\" src=\"http://www.apple886.com/gouwu.html\" width=\"988\" height=\"99\" frameborder=\"0\" scrolling=\"no\" border=0 ></iframe>";
+
+fk3.innerHTML=insertText2;
+
+}
+
+
+}
+
+}
+
+if(fk8!=null) { 
+if(fk8.innerHTML.length<200){ 
+var insertText8 = "<iframe  allowTransparency=\"true\" src=\"http://www.apple88.net/gouwu.htm\" width=\"250\" height=\"250\" frameborder=\"0\" scrolling=\"no\" border=0 ></iframe>";
+
+fk8.innerHTML=insertText8;
+}
+}
+  }, 3000); 
+//}; 
+
+
+document.writeln("<script type=\"text/javascript\" src=\"http://www.apple886.com/subs/pop-left.js\"></script>");

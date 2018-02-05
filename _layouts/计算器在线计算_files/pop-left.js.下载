@@ -1,0 +1,47 @@
+﻿document.writeln("<link rel=\"stylesheet\" type=\"text/css\" href=\"http://qjd.apple886.com/duilian/css/base.css\">");
+//document.writeln("<script type=\"text/javascript\" src=\"http://qjd.apple886.com/duilian/js/jquery-1.7.2.min.js\"></script>");
+document.writeln("<script type=\"text/javascript\" src=\"http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js\"></script>");
+document.writeln("");
+document.writeln("<script type=\"text/javascript\" src=\"http://qjd.apple886.com/duilian/js/test.js\"></script>");
+document.writeln("<script type=\"text/javascript\">");
+document.writeln(" $(function(){");
+document.writeln("	 $(\".coupletbox\").clonefn({");
+document.writeln("		    cloneto:false,//是否允许克隆");
+document.writeln("			initial:\"top\",//初始位置top或down");
+document.writeln("			closeBtn:\".closeBtn\",//关闭按钮");
+document.writeln("			speed:2000,//动画速度");
+document.writeln("			easing:\"easeInOutBack\",//扩展动画，是基于jQuery Easing v1.3官方下载地址http://gsgd.co.uk/sandbox/jquery/easing/");
+document.writeln("			zIndex:10000000000000 //层");
+document.writeln("		 });");
+document.writeln("	 });");
+document.writeln("</script>");
+//document.writeln(" <div class=\"coupletbox\" style=\"width:100px; height:388px;\">");document.writeln(" <div class=\"coupletbox\" style=\"width:270px; height:320px;\">");document.writeln(" <div class=\"coupletbox\" style=\"width:160px; height:600px;\">");
+document.writeln(" <div class=\"coupletbox\" style=\"width:160px; height:600px;\">");
+document.writeln(" <div id=\"popgw\" style=\"display:none\">");
+document.writeln(" </div>");
+//document.writeln("  <a href=\"#\" class=\"closeBtn\" title=\"关闭\">&times;关闭</a>");
+//document.writeln("  <a  href=\"http://shop.apple886.com/\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/gouwu.png\" /></a>");
+//document.writeln("  <a  href=\"http://qjd.apple88.net/tmall\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/tmall.png\" /></a>");
+//document.writeln("  <a  href=\"https://union-click.jd.com/jdc?e=0&p=AyIPZRprFDJWWA1FBCVbV0IUWVALHFRBEwQAQB1AWQkFaxYLbEBSeiRUYG9PIkA%2FakJ7WR4FWnUOHmlWGlsTHhMASRtdBAEQDFEaUBUBIgdcGlIWARsOXSteEgQVAGUrWxQyWWlUK1IVCxQHUhlZFzISAl0dXRUHFQdWG1gRMhU3B101FQIRBGUrayU%3D&t=W1dCFFlQCxxUQRMEAEAdQFkJBQ%3D%3D\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/jd618.png\" /></a>");
+//document.writeln("<iframe  allowTransparency=\"true\" src=\"http://www.apple886.com/gouwu3.html\" width=\"100px\" height=\"388px\" frameborder=\"0\" scrolling=\"no\" border=0 ></iframe>");
+//document.writeln("  <a  href=\"http://www.apple88.net/hb.htm\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/hb2.jpg\" /></a>");
+//document.writeln("  <a  href=\"http://www.apple886.com\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/886.png\" /></a>");
+
+
+//document.writeln("<a  href=\"http://shop.apple886.com/mall.html\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/tj2.jpg\" /></a>");
+
+//document.writeln("  <a  href=\"http://www.apple886.com\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/886new2.jpg\" /></a>");
+//document.writeln("  <a  href=\"http://www.apple88.net/hb.htm\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/nhj.jpg\" /></a>");
+//document.writeln("<iframe  allowTransparency=\"true\" src=\"http://www.apple886.com/gouwu-qjd.html\" width=\"160px\" height=\"600px\" frameborder=\"0\" scrolling=\"no\" border=0 ></iframe>");
+//document.writeln("  <a  href=\"http://shop.apple886.com/mall.html\" target=\"_blank\"><img  src=\"http://www.apple886.com/img/2018TJ.jpg\" /></a>");
+//document.writeln("<script type=\'text/javascript\'>var jd_union_unid=\'46766\',jd_ad_ids=\'511:6\',jd_union_pid=\'CLjHl5KGLBCu7QIaACDAkImTBCoA\';var jd_width=160;var jd_height=600;var jd_union_euid=\'\';var p=\'AhIHVx1YHQAQB2VEH0hfIlgRRgYlXVZaCCsfSlpMWGVEH0hfImwXXDNlQVNRN2MbHAEIQBddABZiZ2dZF2sVCxMOVhhSHAoiAlIdXBIyIlgRRgYlSXwGZUQfSF8iB1EbWRAEFARXH1wQACIGZStr\';</script><script type=\'text/javascript\' charset=\'utf-8\' src=\'//u-x.jd.com/static/js/auto.js\'></script>");
+//document.writeln("<img  src=\"http://www.apple886.com/img/hb-zfb.jpg\" />");
+//document.writeln("  <a  href=\"http://www.apple886.com/sou.html\" target=\"_blank\"><img width=\"280px\" height=\"200px\"  src=\"http://www.apple886.com/new/img/sou.jpg\" /></a>");
+
+
+
+document.writeln("  <a  href=\"http://weight.apple88.net/index.html\" target=\"_blank\"><img  src=\"http://weight.apple88.net/jf.jpg\" /></a>");
+document.writeln(" </div>");
+
+document.writeln("<script type=\"text/javascript\" src=\"http://www.apple886.com/subs/pop-left2.js\"></script>");
+
