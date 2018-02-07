@@ -1,72 +1,113 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-	<meta charset="UTF-8"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网站导航</title>
+<style type="text/css">
+.h1_css {
+	font-size: larger;
+	text-align: center;
+	color: #333;
+}
+
+.mznavi {
+	font-size: 36px;
+	font-style: normal;
+	text-transform: none;
+	background-repeat: repeat;
+	word-spacing: 100px;
+	vertical-align: top;
+	border: thin solid #6C9;
+}
+.blog {
+	word-spacing: 50px;
+}
+.microblog {
+	word-spacing: 50px;
+}
+
+.fortune500_first20 {
+	word-spacing: 50px;
+	background-color: #FFF;
+	font-size: 16px;
+}
+a{
+font-size:18px;	
+}
+a:hover{ color:#F00;/*鼠标经过链接时颜色*/}
+ 
+a:link {
+	text-decoration:none;	
+}
+
+</style>
 </head>
 
 <body>
+<h1 class="h1_css">网站导航</h1>
+<div class="mznavi">
+  <a href="http://www.163.com">网易</a>
+  <a href="http://www.sina.com">新浪</a>
+  <a href="http://www.taobao.com">淘宝</a>
+<a href="http://www.jd.com">京东</a>
+<a href="http://www.ifeng.com">凤凰网</a>
+<a href="https://www.bilibili.com">B站</a>
+<a href="http://www.sohu.com">搜狐</a>
+<a href="http://www.tianya.cn">天涯</a>
+<a href="http://www.douban.com">豆瓣</a>
+<a href="https://www.zhihu.com/">知乎</a>
+</div>
 
-	<input id="expression" style="text-align:right;" type="text"/>
-	<br/>
+<div class="microblog">
+<a href="https://weibo.com"><h3>微博</h3></a>
+  <a href="https://weibo.com/cmzyk">传媒老跟班</a>
+  <a href="https://weibo.com/YuanFengBOE">原烽_BOE</a>
+  <a href="https://weibo.com/fly51fly">爱可可-爱生活</a>
+  <a href="https://weibo.com/shuangye2012">霜叶</a>
+  <a href="https://weibo.com/u/3217179555">回忆专用小马甲</a>
+  <a href="https://weibo.com/u/2150511032">追风少年刘全有</a>
+</div>
 
-	<button>1</button>
-	<button>2</button>
-	<button>3</button>
-	<button>+</button>
-	<br/>
-	<button>4</button>
-	<button>5</button>
-	<button>6</button>
-	<button>-</button>
-<br/>
-	<button>7</button>
-	<button>8</button>
-	<button>9</button>
-	<button>*</button>
-	<br/>
-	<button>.</button>
-	<button>0</button>	
-	<button>=</button>	
-	<button>/</button>	
+<div class="blog">
+<a href="http://blog.sina.com.cn/">
+<h3>博客</h3></a>
+  <a href="http://blog.sina.com.cn/u/1300871220">徐小明的BLOG</a>
+  <a href="http://blog.sina.com.cn/u/1216826604">wu2198的BLOG</a>
+  <a href="http://blog.sina.com.cn/u/1245296155">封起De日子</a>
+  <a href="http://blog.sina.com.cn/u/1284139322">凯恩斯-私募教授</a>
+  <a href="http://blog.sina.com.cn/u/1285707277">股市风云</a>
+  <a href="http://blog.sina.com.cn/u/1458594614">淘金期货 淘金股海</a>
+  <a href="http://blog.sina.com.cn/u/1236135807">坏人也温柔de陈词滥调</a>
+  <a href="http://blog.sina.com.cn/u/1191258123">韩寒</a>
+  <a href="http://blog.sina.com.cn/u/1504965870">冯矿伟《双龙战法》</a>
+  <a href="http://blog.sina.com.cn/u/1220824437">YOYO食色空间</a>
+</div>
 
-	<script type="text/javascript">
-
-		var expression = '';
-		var input = document.querySelector('#expression');
-
-		var handleClick = function(e){
-			//console.log(e.target.innerHTML);
-
-			var t = e.target.innerHTML;
-			if(t === "="){
-				var result = eval(expression);
-				input.value = result;
-				expression = '';
-				return;
-			}
-			expression += t;
-			input.value = expression;
-		}
-
-		var btns = document.getElementsByTagName('button');
-
-		for(var i in btns){
-			btns.item(i).addEventListener('click',function(e){
-				
-			var t = e.target.innerHTML;
-			if(t === "="){
-				var result = eval(expression);
-				input.value = result;
-				expression = '';
-				return;
-			}
-			expression += t;
-			input.value = expression;
-			});
-		}
-
-	</script>
+<div class="fortune500">
+<a href="http://www.fortunechina.com/"><h3>世界五百强</h3></a>
+<div class="fortune500_first20">
+<a href="https://www.walmart.com">沃尔玛</a>
+<a href="http://www.sgcc.com.cn">国家电网</a>
+<a href="http://www.sinopec.com">中国石化</a>
+<a href="http://www.cnpc.com.cn">中国石油</a>
+<a href="http://www.toyota-global.com">丰田</a>
+<a href="http://www.volkswagen.com">大众</a>
+<a href="https://www.shell.com">壳牌</a>
+<a href="http://www.berkshirehathaway.com">伯克希尔-哈撒韦</a>
+<a href="http://www.apple.com">苹果</a>
+<a href="http://www.exxonmobil.com">美孚</a>
+<a href="http://www.mckesson.com">麦克森</a>
+<a href="http://www.bp.com">BP</a>
+<a href="http://www.unitedhealthgroup.com">联合健康</a>
+<a href="http://www.cvshealth.com">CVS HEALTH</a>
+<a href="http://www.samsung.com">三星</a>
+<a href="http://www.glencore.com">嘉能可</a>
+<a href="https://www.daimler.com">戴姆勒</a>
+<a href="http://www.gm.com">通用汽车</a>
+<a href="http://www.att.com"> AT&T </a>
+<a href="http://www.exor.com">EXOR</a>
+</div>
+</div>
 </body>
-
 </html>
