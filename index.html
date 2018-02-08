@@ -16,9 +16,19 @@
 	font-style: normal;
 	text-transform: none;
 	background-repeat: repeat;
-	word-spacing: 100px;
-	vertical-align: top;
-	border: thin solid #6C9;
+	word-spacing: 50px;
+	padding: 5px;
+	text-align: left;
+	border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #DFDFDF;
+	border-right-color: #DFDFDF;
+	border-bottom-color: #DFDFDF;
+	border-left-color: #DFDFDF;
+	clip: rect(auto,auto,auto,auto);
+	margin-bottom: 20px;
 }
 .blog {
 }
@@ -29,15 +39,30 @@
 	background-color: #FFF;
 	font-size: 16px;
 }
-a{
-font-size:18px;	
+.mznavi a
+{
+	vertical-align: 26%;
 }
+a{
+	font-size: 18px;
+	clip: rect(auto,auto,auto,auto);
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+
+}
+
 a:hover{ color:#F00;/*鼠标经过链接时颜色*/}
  
 a:link {
 	text-decoration:none;	
+	color: black;
 }
-
+a:visited
+{
+	color: black;	
+}
 .footer{
 	position: absolute;
 	width: 100%;
@@ -51,6 +76,7 @@ a:link {
 	clip: rect(auto,100px,auto,auto);
 	text-align: center;
 }
+
 </style>
 </head>
 
